@@ -1,0 +1,14 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "Node.js with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vibhas Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.7"
+  }
+}
