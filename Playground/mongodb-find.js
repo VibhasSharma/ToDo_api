@@ -30,7 +30,7 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         console.log('Documents that contain name: Vibhas: ');
         console.log(JSON.stringify(docs, undefined, 2));
     }, (err) => {
-        console.log('Unable to find ducuments');
+        console.log('Unable to find documents');
     });
 
     client.close();

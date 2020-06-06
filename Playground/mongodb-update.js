@@ -25,8 +25,8 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
     // Find one and update $set and $inc operator
     db.collection('Users').findOneAndUpdate(
         {_id: new ObjectID('5ead5c3c3a1560712e32f5dc')},
-        {$set: {name: 'MotuJain'}},
-        {$inc: {age: 1}},
+        {$set: {name: 'Rajat Pancholi'}},
+        {$inc: {age: 7}},
         {returnOriginal: false
         }).then((result) => {
         console.log(result);
